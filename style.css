@@ -1,11 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;  
+}
+
 .collapse {
     width: 25vw;
 }
 
-.nav-link {
+
+.nav-item {
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+  }
+
+  .nav-item a{
+    text-decoration: none;
     color: #0d74ba;
   }
+
+  .nav-item a:hover {
+    color: #F8C740;
+  }
   
+
+  .nav-item a:active {
+    color: #84BCDC;
+  }
+
+
   .menu-icon {
     color: #0d74ba;
   }
