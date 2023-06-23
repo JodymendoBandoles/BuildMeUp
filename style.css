@@ -56,7 +56,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .mobilebanner-title {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: 'Comic Neue', cursive;
     font-weight: bold;
     margin-bottom: 2.5vh;
@@ -76,17 +76,62 @@
   color: #F8C740;
   text-transform: uppercase;
 }
+
+.caption-keywords:hover {
+  background-color: #4C745C;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
   
 .carousel-caption a{
     padding: 10px 15px;
 }
 
 .carousel-caption p {
+    color: white;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 500;
     width: 100%;
     line-height: 1.7rem;
+}
+
+#bannerbtn {
+  background-color: #F8C740;
+  color: white;
+  font-weight: 500;
+  margin: 1.5vh 0;
+  border: 3px solid #F8C740;
+}
+
+#bannerbtn:hover {
+  background-color: transparent;
+  color: white;
+  border: 3px solid #F8C740;
+  border-radius: 8px;
+}
+
+.container-md {
+  margin: 8vh 2vw;
+}
+
+.container-md h2 {
+  color: #0d74ba;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.3rem;
+  letter-spacing: 3px;
+  margin-bottom: 4vh;
+}
+
+.container-md p {
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+#BuildMeUp {
+  font-weight: bold;
 }
 
 
@@ -126,22 +171,29 @@
   }
 
   .carousel-caption p {
+    color: white;
     width: 60%;
     margin: auto;
     font-size: 18px;
     line-height: 1.9;
   }  
-  
-  .carousel-inner::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgbs(0,0,0,0,0.7);
-    z-index: 1;
+
+  .container-md {
+    margin: 10vh 6vw;
   }
-   
+
+  .container-md h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 3.4rem;
+  }
+
+  .container-md p {
+    font-size: 20px;
+    line-height: 2.5rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+     
  }
   
