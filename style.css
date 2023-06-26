@@ -234,29 +234,6 @@
   margin-top: 0;
 }
 
-.Blogs {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.Blogs h2{
-  color: #0d74ba;
-  font-family: 'Comic Neue', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 2.3rem;
-  letter-spacing: 3px;
-  margin-top: 8vh;
-  margin-bottom: 2vh;
-}
-
-.Green-color {
-  color: #F8C740;
-  margin-top: 0;
-}
-
-
  @media only screen and (min-width: 769px) {
   .w-lg-50 {
     width: 50%;
@@ -409,32 +386,6 @@
     width: 29vw;
     padding: 1vh 1vw;
     margin-bottom: 6vh;
-  }
-
-  .Blogs-Title h2{
-    color: #0d74ba;
-    font-family: 'Comic Neue', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2.3rem;
-    letter-spacing: 3px;
-    margin-bottom: 3vh;
-  }
-
-  .box {
-    padding: 10px;
-    color: black;
-    border-radius: 0.5rem;
-    transition: all 0.4s ease;
-    cursor: pointer;
-  }
-
-  .box img {
-    display: flex;
-    width: 30vw;
-    height: 30vh;
-    border-radius: 0.5rem;
   }
 
  }
