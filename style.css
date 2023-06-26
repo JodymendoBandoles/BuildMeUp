@@ -153,11 +153,11 @@
   margin-top: 10px;
 }
 
-.main-text {
+.EducationandCare {
   text-align: center;
 }
 
-.main-text h2{
+.EducationandCare h2{
   color: #0d74ba;
   font-family: 'Comic Neue', sans-serif;
   font-size: 30px;
@@ -173,7 +173,7 @@
   padding: 2vh 2vw;
 }
 
-.card h3 {
+.card h4 {
   color: #0d74ba;
   margin-top: 2rem;
 }
@@ -184,9 +184,76 @@
   border-radius: 4px;
 }
 
+.card h4 {
+  color: #0d74ba;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.card:hover h4 {
+  transform: scale(1.01) translateY(-5px);
+}
+
 .card p {
   color: white;
   margin-bottom: 2rem;
+}
+
+.Gallery {
+  color: #0d74ba;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.3rem;
+  letter-spacing: 3px;
+  margin-top: 2rem;
+  margin-bottom: 2vh;
+}
+
+.Gallerysubtitle {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.Galleryro2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.Galleryro2 img {
+  height: 43vh;
+  width: 64vh;
+  padding-bottom: 2vh;
+  margin-top: 0;
+}
+
+.Blogs {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Blogs h2{
+  color: #0d74ba;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.3rem;
+  letter-spacing: 3px;
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+}
+
+.Green-color {
+  color: #F8C740;
+  margin-top: 0;
 }
 
 
@@ -265,16 +332,35 @@
     height: 350px;
   }
 
+  .EducationandCare h2{
+    color: #0d74ba;
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.3rem;
+    letter-spacing: 3px;
+    margin-bottom: 3vh;
+  }
+
+  .EducationandCare h3 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 2vh;
+  }
+
   .card {
     height: 80vh;
     background-color: #84BCDC;
     padding: 2vh 2vw;
     margin-top: 2rem;
+    margin-bottom: 4rem;
   }
   
-  .card h3 {
+  .card h4 {
     color: #0d74ba;
-    margin-top: 2rem;
+    margin-top: -1rem;
     margin-bottom: 1rem;
   }
   
@@ -288,8 +374,25 @@
     color: white;
     margin-bottom: 2rem;
   }
-  
-  .main-text h2{
+
+  .card:hover {
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid #F8C740;
+  }
+
+  .card:hover h4 {
+  transform: scale(1.01) translateY(-5px);
+  }
+
+  .Galleryro2 {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .Gallery {
     color: #0d74ba;
     font-family: 'Comic Neue', sans-serif;
     font-size: 40px;
@@ -297,6 +400,41 @@
     text-align: center;
     line-height: 2.3rem;
     letter-spacing: 3px;
+    margin-top: 2rem;
     margin-bottom: 2vh;
   }
-}
+
+  .Galleryro2 img {
+    height: 37vh;
+    width: 29vw;
+    padding: 1vh 1vw;
+    margin-bottom: 6vh;
+  }
+
+  .Blogs-Title h2{
+    color: #0d74ba;
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.3rem;
+    letter-spacing: 3px;
+    margin-bottom: 3vh;
+  }
+
+  .box {
+    padding: 10px;
+    color: black;
+    border-radius: 0.5rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+
+  .box img {
+    display: flex;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 0.5rem;
+  }
+
+ }
